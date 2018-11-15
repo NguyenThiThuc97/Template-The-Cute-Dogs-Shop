@@ -1,20 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'
-import MainHeader from './header';
-<<<<<<< HEAD
-import Content from './content';
-
-class Master extends Component {
-  render() {
-    return (
-      <div className="as-mainwrapper">
-      	<div className="bg-white">
-          <MainHeader/>
-          <Content/>
-=======
 import Menu from './menu';
-import TopNavigation from './top_navigation';
+import TopNavigation from './topNavigation';
 import Home from './pages/home';
 import Footer from './footer';
 // import css
@@ -40,7 +28,6 @@ class Master extends Component {
             <Home/>
             <Footer/>
           </div>
->>>>>>> 289c1f84d3ad7cb452e267d6e277cc72c27cf02f
         </div>
       </body>
     );
