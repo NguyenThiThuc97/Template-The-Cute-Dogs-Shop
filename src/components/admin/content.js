@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Product from './pages/product'
 
-class Menu extends Component
+class Content extends Component
 {
 	render(){
 		return (
@@ -42,4 +42,4 @@ class Menu extends Component
 			)
 	}
 }
-export default Menu
+export default Content

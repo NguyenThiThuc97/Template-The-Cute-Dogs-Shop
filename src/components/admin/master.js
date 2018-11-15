@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'
 import MainHeader from './header';
-import Menu from './menu';
+import Content from './content';
 
 class Master extends Component {
   render() {
@@ -10,7 +10,7 @@ class Master extends Component {
       <div className="as-mainwrapper">
       	<div className="bg-white">
           <MainHeader/>
-          <Menu/>
+          <Content/>
         </div>
       </div>
     );
